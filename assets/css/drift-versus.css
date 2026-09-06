@@ -33,6 +33,30 @@
     --column: 40rem;
 }
 
+/* ---- per-game palettes ------------------------------------------------
+
+   The variables above are Drift Versus's, and stay the site's default: the
+   root index and any page without a `palette` gets them. A game adds a block
+   here and names it in front matter.
+
+   Only the six ground/type variables move. The layout, the column width and
+   the type do NOT: a player who has two of these games installed should read
+   two pages that are obviously the same publisher's, in two different games'
+   colours. */
+
+/* Highway Rivals — Theme.cs, the game's own purple ramp. Ink is the darkest
+   shade the game draws on, accent is #824AD5 lifted to #B98CEC for links,
+   because the accent itself does not clear 4.5:1 on that ground. */
+body.highwayrivals {
+    --canvas:  #150F1D;
+    --card:    #1F0D3B;
+    --surface: #2E1851;
+    --border:  #0C0714;
+    --accent-yellow: #B98CEC;
+    --ink:      #F3EFFA;
+    --ink-mute: #A99CC0;
+}
+
 *, *::before, *::after { box-sizing: border-box; }
 
 html {

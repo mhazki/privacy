@@ -6,7 +6,10 @@
      `viewport-fit=cover` plus the safe-area padding in the stylesheet is what
      keeps the masthead clear of a notch. -->
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#162234">
+<!-- Each game's page paints itself in that game's palette (see `palette` in
+     front matter and the body classes in the stylesheet), so the browser
+     chrome has to follow it or the notch area stays the other game's blue. -->
+<meta name="theme-color" content="{{ page.themecolor | default: '#162234' }}">
 <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{{ site.description }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +24,11 @@
      over this page for one deploy. A path no theme claims is the fix. -->
 <link rel="stylesheet" href="{{ '/assets/css/drift-versus.css' | relative_url }}">
 </head>
-<body>
+<!-- One stylesheet, one palette per game: `palette` names a body class the
+     stylesheet redefines the colour variables under. Adding a game is a front
+     matter line plus a block in the CSS, never a second stylesheet — the
+     layout, the type and the column are the SITE's, not any one game's. -->
+<body class="{{ page.palette }}">
 
 <header class="masthead">
   <div class="wrap">
