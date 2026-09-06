@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
-wordmark: Highway Rivals
-palette: highwayrivals
+wordmark: Highway Versus
+palette: highwayversus
 themecolor: "#150F1D"
 ---
 
@@ -95,7 +95,7 @@ your own backup until that backup is replaced or you delete it.
 
 ## 2. Information collected by advertising
 
-HIGHWAY RIVALS shows advertisements supplied by **Google AdMob**. To do this,
+HIGHWAY VERSUS shows advertisements supplied by **Google AdMob**. To do this,
 the Google Mobile Ads SDK is included in the game and communicates directly
 with Google's servers.
 
@@ -166,7 +166,7 @@ you.
 
 ## 5. Children
 
-HIGHWAY RIVALS is **not directed to children under 13**, and we do not
+HIGHWAY VERSUS is **not directed to children under 13**, and we do not
 knowingly collect personal information from children under 13. Our declared
 target audience with both app stores reflects this.
 
@@ -208,7 +208,7 @@ the app's store listing release notes.
 
 ## 9. Contact
 
-Questions about this policy or about privacy in HIGHWAY RIVALS:
+Questions about this policy or about privacy in HIGHWAY VERSUS:
 
 **[hello@mhzgames.com](mailto:hello@mhzgames.com)**
 

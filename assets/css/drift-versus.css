@@ -44,10 +44,10 @@
    two pages that are obviously the same publisher's, in two different games'
    colours. */
 
-/* Highway Rivals — Theme.cs, the game's own purple ramp. Ink is the darkest
+/* Highway Versus — Theme.cs, the game's own purple ramp. Ink is the darkest
    shade the game draws on, accent is #824AD5 lifted to #B98CEC for links,
    because the accent itself does not clear 4.5:1 on that ground. */
-body.highwayrivals {
+body.highwayversus {
     --canvas:  #150F1D;
     --card:    #1F0D3B;
     --surface: #2E1851;

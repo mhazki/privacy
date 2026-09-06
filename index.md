@@ -8,7 +8,7 @@ Each game has its own policy, because each game ships its own code and its own
 third-party SDKs. Nothing here is shared boilerplate.
 
 - **[Drift Versus](/driftversus/)** — privacy policy and credits
-- **[Highway Rivals](/highwayrivals/)** — privacy policy
+- **[Highway Versus](/highwayversus/)** — privacy policy
 
 Questions about any of them: **[hello@mhzgames.com](mailto:hello@mhzgames.com)**
 
