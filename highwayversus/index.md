@@ -23,7 +23,7 @@ trading as MHz Games ("we", "us").
 - The game sends a **small amount of anonymous usage data** — that a run
   started, how it ended, which gear you reached, whether you took a rewarded
   ad — under a random ID that is not linked to you. **In the European Economic
-  Area, the United Kingdom and Switzerland it sends none.**
+  Area, the United Kingdom and Switzerland it sends none unless you say yes.**
 - The game shows ads supplied by **Google AdMob**. Google receives information
   from your device in order to serve those ads.
 - If you are in the European Economic Area, the United Kingdom or Switzerland,
@@ -62,11 +62,16 @@ advertising identifier, and we cannot connect it to you. Uninstalling the game
 discards it.
 
 **If you are in the European Economic Area, the United Kingdom or
-Switzerland, none of this is sent.** The game asks Google's User Messaging
-Platform whether a privacy choice applies where you are; if it does — or if
-the game cannot find out, for example on a first launch without a connection —
-usage data and error reports are not collected, and anything recorded while
-the game was finding out is thrown away without being sent.
+Switzerland, none of this is sent unless you agree.** The game asks Google's
+User Messaging Platform whether a privacy choice applies where you are. If it
+does, the game asks you — once, after the ad-consent form — whether it may send
+usage data, with **ALLOW** and **NO THANKS** as equal choices. Until you say
+yes, no usage data or error reports are sent, and anything recorded while the
+game was waiting for your answer is thrown away unsent. If the game cannot find
+out where you are, for example on a first launch without a connection, it does
+not ask and sends nothing unless you have already said yes. Your answer is
+remembered on your device and applies wherever you later play: a no stays a no.
+You can change it at any time from **Settings → USAGE DATA**.
 
 We use this for one thing: knowing where players stop. A game whose whole
 subject is a difficulty ramp cannot be tuned from the desk it was made on, and
@@ -77,7 +82,7 @@ code it happened. These carry no information about you.
 
 ### Data kept on your device
 
-The game writes one small file to its private app storage so it can remember
+The game writes two small files to its private app storage so it can remember
 your progress between sessions:
 
 | What | Why |
@@ -86,9 +91,9 @@ your progress between sessions:
 | Stacks, the cars you own and the one you are driving | So you keep what you bought |
 | The sound setting | So the game opens the way you left it |
 | Whether you own the ad-free upgrade | So you are not shown ads you paid to remove |
-| Your recorded consent choices | So you are not asked the same question repeatedly |
+| Your answer to the usage-data question (a separate file) | So you are not asked again — kept apart from the rest so that RESET PROFILE does not erase a choice you made |
 
-That file is in the app's private storage area and is readable only by the
+Both are in the app's private storage area and are readable only by the
 game. **We never receive it and have no way to access it** — the game does not
 upload it anywhere.
 
@@ -98,7 +103,7 @@ app's saved data into your personal cloud account, exactly as it does for other
 apps. That backup belongs to you and is handled by Google or Apple under their
 own policies, not by us. You can turn it off in your device's settings.
 
-Uninstalling the game deletes the file from your device. A copy may remain in
+Uninstalling the game deletes both files from your device. A copy may remain in
 your own backup until that backup is replaced or you delete it.
 
 ## 2. Information collected by advertising
@@ -159,20 +164,21 @@ settings:
 - **iOS** — Settings → Privacy & Security → Tracking, and Settings → Privacy &
   Security → Apple Advertising
 
-**To remove ads**, buy the ad-free upgrade from **Settings → REMOVE ADS**. It
+**To remove ads**, buy the ad-free upgrade from the in-game store (the Stacks plate). It
 removes the interruption ad after a crash. The rewarded ad stays available,
 because it is a way to get something — a second chance, or double the payout —
 rather than an interruption, and removing it would take something away from you
 rather than give something back.
 
 **To wipe what the game has saved about you** without uninstalling, use
-**Settings → RESET PROFILE**. It clears the local save file described in
-section 1.
+**Settings → RESET PROFILE**. It clears the progress file described in
+section 1. Your answer to the usage-data question is kept.
 
-**To stop usage data being sent**, uninstall the game. There is no separate
-switch for it inside the game; the data is anonymous and is not connected to
-you. In the EEA, the UK and Switzerland none is sent in the first place — see
-section 1.
+**To stop usage data being sent** in the EEA, the UK or Switzerland, turn off
+**Settings → USAGE DATA**. It is off unless you said yes, and turning it off
+stops collection straight away. Elsewhere there is no switch for it inside the
+game — uninstall the game to stop it; the data is anonymous and is not
+connected to you.
 
 ## 5. Children
 
