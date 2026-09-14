@@ -5,10 +5,10 @@ palette: highwayversus
 themecolor: "#150F1D"
 ---
 
-**Effective date: 6 September 2026**
+**Effective date: 14 September 2026**
 
 This policy explains what happens to information when you play **HIGHWAY
-RIVALS** ("the game"), a mobile game published by Muhammad Hazki Hariowibowo,
+VERSUS** ("the game"), a mobile game published by Muhammad Hazki Hariowibowo,
 trading as MHz Games ("we", "us").
 
 ---
@@ -22,7 +22,8 @@ trading as MHz Games ("we", "us").
   one. We cannot see them either way.
 - The game sends a **small amount of anonymous usage data** — that a run
   started, how it ended, which gear you reached, whether you took a rewarded
-  ad — under a random ID that is not linked to you.
+  ad — under a random ID that is not linked to you. **In the European Economic
+  Area, the United Kingdom and Switzerland it sends none.**
 - The game shows ads supplied by **Google AdMob**. Google receives information
   from your device in order to serve those ads.
 - If you are in the European Economic Area, the United Kingdom or Switzerland,
@@ -59,6 +60,13 @@ request arrived from, and a **random installation ID** the SDK generates the
 first time the game runs. That ID is not derived from you or from your
 advertising identifier, and we cannot connect it to you. Uninstalling the game
 discards it.
+
+**If you are in the European Economic Area, the United Kingdom or
+Switzerland, none of this is sent.** The game asks Google's User Messaging
+Platform whether a privacy choice applies where you are; if it does — or if
+the game cannot find out, for example on a first launch without a connection —
+usage data and error reports are not collected, and anything recorded while
+the game was finding out is thrown away without being sent.
 
 We use this for one thing: knowing where players stop. A game whose whole
 subject is a difficulty ramp cannot be tuned from the desk it was made on, and
@@ -123,8 +131,9 @@ doubles what a run paid.
 
 ## 3. Purchases
 
-If you buy the ad-free upgrade, the purchase is handled entirely by **Google
-Play** (or **Apple's App Store** on iOS). Your payment details go to them, never
+The game sells packs of Stacks, its in-game currency, and a one-time upgrade
+that removes interruption ads. If you buy either, the purchase is handled
+entirely by **Google Play** (or **Apple's App Store** on iOS). Your payment details go to them, never
 to us — we never see or store your card number, billing address, or any other
 payment information. We receive only a confirmation that a purchase completed,
 which the game uses to grant what you bought.
@@ -162,7 +171,8 @@ section 1.
 
 **To stop usage data being sent**, uninstall the game. There is no separate
 switch for it inside the game; the data is anonymous and is not connected to
-you.
+you. In the EEA, the UK and Switzerland none is sent in the first place — see
+section 1.
 
 ## 5. Children
 
