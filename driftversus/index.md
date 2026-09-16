@@ -6,8 +6,7 @@ jump: true
 
 # Drift Versus — Privacy Policy & Credits
 
-**Effective date: 4 September 2026**
-
+**Effective date: 16 September 2026**
 
 This policy explains what happens to information when you play **Drift Versus**
 ("the game"), a mobile racing game published by Muhammad Hazki Hariowibowo, trading as MHz Games ("we", "us").
@@ -43,16 +42,24 @@ your name, email address, contacts, location or anything similar.
 To understand how the game is played, it sends us a small number of
 **anonymous usage events**: the app was opened, how far through the game you
 have got, a race was started, a race finished, in-game currency was earned or
-spent, a reward ad was watched or skipped, an interruption ad was shown, and a
-purchase was made (which product, and whether it went through).
+spent, a reward ad was watched or skipped, an interruption ad was shown, the
+store page was opened, and a purchase was made (which product, where it was
+started from, and whether it went through).
 
-The race events describe the driving and nothing else: which course and where
-it sits on the ladder, which mode, win or loss, how long the run took, the
-drift score and how it was made up, how many times the car touched a wall, and
-the in-game purse the run paid. The currency event records that in-game Stacks
-moved — how many, why (a race purse, a daily ladder rung, a rewarded ad, a
+The race events describe the driving and nothing else: which course, which
+stage of the career it was and whether that stage was a King's fight, which
+mode, win or loss, how long the run took, the drift score and how it was made
+up, how many times the car touched a wall, which stars the run earned, and the
+pips it paid. The currency events record that in-game pips or car tokens moved
+— how many, why (a race, a King's first fall, a solo medal, a rewarded ad, a
 purchase, or buying a car) and the balance afterwards. None of this is money;
-Stacks cannot be cashed out and exist only inside the game.
+pips and tokens cannot be cashed out and exist only inside the game.
+
+When the store page is opened, the game records that it was opened and what
+your counters read at that moment — how many tokens and pips you hold, how far
+off the next free car is, and which stage you are on. It is how we tell a
+store nobody opens from a store people open and leave, and it carries nothing
+about you that the rest of this list does not already carry.
 
 ### Performance data
 
@@ -78,9 +85,9 @@ settings. This data is what lets better-looking graphics be turned on for the
 devices that can hold the frame rate.
 
 Once each time you open the game, it also sends **how far you have got**: how
-many districts you have reached, how many courses you have cleared, how many
-crew captains you have beaten, whether you have finished the campaign, how many
-cars you own, how many races you have run and your Stacks balance. This is the
+many stages you have cleared, how many Kings and rematches you have beaten, how
+many stars you hold, whether you have finished the career, how many cars you
+own, how many races you have run, and your pip and token balances. This is the
 same progress the game already shows you on its own screens — it tells us
 where players get to and where they stop, which is how we know which parts of
 the game are too hard.
