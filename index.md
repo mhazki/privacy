@@ -9,6 +9,7 @@ third-party SDKs. Nothing here is shared boilerplate.
 
 - **[Drift Versus](/driftversus/)** — privacy policy and credits
 - **[Highway Versus](/highwayversus/)** — privacy policy
+- **[Fomalhaut Raiders](/fomalhaut/)** — privacy policy
 
 Questions about any of them: **[hello@mhzgames.com](mailto:hello@mhzgames.com)**
 

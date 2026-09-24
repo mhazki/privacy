@@ -57,6 +57,19 @@ body.highwayversus {
     --ink-mute: #A99CC0;
 }
 
+/* Fomalhaut Raiders — HudView's colours. Ink is the HUD's INK (#e8eef5),
+   accent is its CHASE cyan (#4cc9f0), which clears 4.5:1 on this ground
+   as it is. The ground is the deep navy of the game's space backdrop. */
+body.fomalhaut {
+    --canvas:  #0B1220;
+    --card:    #111B2E;
+    --surface: #182540;
+    --border:  #070C16;
+    --accent-yellow: #4CC9F0;
+    --ink:      #E8EEF5;
+    --ink-mute: #9AA8BC;
+}
+
 *, *::before, *::after { box-sizing: border-box; }
 
 html {
