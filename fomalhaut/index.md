@@ -20,7 +20,11 @@ Hariowibowo, trading as MHz Games ("we", "us").
 - The game sends us a **small amount of anonymous usage data**: how far
   you have got, which sorties were flown and how they went, how the flight
   school tutorial went, and what was built or upgraded in the hangar. It is
-  sent under a random ID that is not linked to you.
+  sent under a random ID that is not linked to you. In the EEA, the UK and
+  Switzerland it sends none.
+- If you are in the EEA, the UK or Switzerland, Google's consent form may ask
+  you to make a choice the first time you play, and you can change it at any
+  time from **Pause → Privacy Options**.
 - This version has **no ads and no in-app purchases**. Future versions will
   add them, and this policy will be updated before they are released.
 - Your progress (credits, crystals, parts, fitted mods and settings) is
@@ -72,8 +76,14 @@ and not to work out a location from it, and our PostHog project is set to
 discard it. PostHog processes this data only on our behalf, under its own
 privacy policy: <https://posthog.com/privacy>.
 
-The usage data is sent in every country. It is anonymous and is not used for
-advertising, and it is never shared with anyone else.
+The usage data is anonymous, is not used for advertising, and is never shared
+with anyone else.
+
+**If you are in the EEA, the UK or Switzerland, no usage data is sent.** The
+game asks Google's consent platform (section 2) which region it is in, and in
+those regions the usage reporting stays off. Until that answer arrives, nothing
+is sent from anywhere; events from the first moments of play wait on your
+device and are sent or discarded once it does.
 
 ### Data kept on your device
 
@@ -92,9 +102,18 @@ see it.
 
 Uninstalling the game or clearing its storage deletes these files.
 
-## 2. Advertising
+## 2. Advertising and consent
 
-This version shows no ads and contains no advertising SDK.
+This version shows no ads. It does include **Google's User Messaging
+Platform**, which is part of the Google Mobile Ads SDK and is how the game
+asks for consent where the law requires it. Each time the game starts, it
+asks Google whether your region needs a consent choice. That request goes
+directly to Google, which sees your device's IP address and basic device
+information to answer it. If a choice is needed, Google's own consent form
+is shown, and your answer is stored on your device. **We do not receive this
+information.** How Google handles it is set out in its privacy policy:
+<https://policies.google.com/privacy>. The game does not read or use your
+device's advertising ID.
 
 A future version will show ads supplied by a third-party ad network, which will
 receive information from your device in order to serve them. The network, what
@@ -147,10 +166,14 @@ events, and nothing we could use to find them. That is why the data cannot be
 traced back to you, and it is also why we cannot pick your events out of it
 to delete them on request.
 
-**To stop usage data being sent**, uninstall the game. There is no separate
-switch for it inside the game yet. Uninstalling also discards the installation
-ID, so nothing sent after a reinstall can be connected to what came before.
-For anything else, contact us and we will help.
+**If you are in the EEA, the UK or Switzerland**, you can change your consent
+choice at any time from **Pause → Privacy Options** in the game. No usage data
+is sent from those regions in any case.
+
+**Elsewhere, to stop usage data being sent**, uninstall the game. There is no
+separate switch for it inside the game. Uninstalling also discards the
+installation ID, so nothing sent after a reinstall can be connected to what
+came before. For anything else, contact us and we will help.
 
 ## 8. Changes to this policy
 
