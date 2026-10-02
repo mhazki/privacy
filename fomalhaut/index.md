@@ -5,7 +5,7 @@ palette: fomalhaut
 themecolor: "#0B1220"
 ---
 
-**Effective date: 28 September 2026**
+**Effective date: 2 October 2026**
 
 This policy explains what happens to information when you play **Fomalhaut
 Raiders** ("the game"), a mobile space shooter published by Muhammad Hazki
@@ -25,9 +25,13 @@ Hariowibowo, trading as MHz Games ("we", "us").
 - If you are in the EEA, the UK or Switzerland, Google's consent form may ask
   you to make a choice the first time you play, and you can change it at any
   time from **Pause → Privacy Options**.
-- This version has **no ads and no in-app purchases**. Future versions will
-  add them, and this policy will be updated before they are released.
-- Your progress (credits, crystals, parts, fitted mods and settings) is
+- The game shows an **optional rewarded ad**: after a sortie you can choose to
+  watch one to double the crystals you brought home. Ads are served by
+  **Google AdMob**, which receives information from your device to do that
+  (section 2). No ad is shown unless you tap for one.
+- You can **buy crystals** in the game. Purchases are handled by **Google
+  Play**; we never see your payment details (section 3).
+- Your progress (crystals, parts, fitted mods and settings) is
   saved **only on your own device**. Your device's own cloud backup may include
   it if you use one. We can't see it either way.
 
@@ -35,8 +39,9 @@ Hariowibowo, trading as MHz Games ("we", "us").
 
 **Nothing that identifies you.** The game has no accounts and never asks for
 your name, email address, contacts, location or anything similar. It does not
-read your contacts, location, photos, microphone, camera, advertising ID or any
-other identifier on your device.
+read your contacts, location, photos, microphone or camera. The ads SDK reads
+your device's advertising ID to serve ads (section 2); the game itself never
+reads it and never sends it to us.
 
 ### Usage data
 
@@ -46,21 +51,24 @@ To see where the game is too hard or too easy, it sends us a small number of
 - **The app was opened**, and whether this was the first time.
 - **How far you have got**, once each time you open the game: the deepest
   ring reached, how many finales you have won, how many sorties you have flown
-  and how many ended in a dock, your best kill count, your crystal and credit
-  balances, how many blueprints and tuners you hold, and whether you have
+  and how many ended in a dock, your best kill count, your crystal
+  balance, how many blueprints and tuners you hold, and whether you have
   finished flight school. This is the same progress the game already shows you.
 - **Flight school**: when it starts, each lesson passed and how long it took,
   and how it ended (docked, crashed or skipped).
 - **Sorties**: when one starts, which ring, sector, mission, tier and threat
   level it is and which ship parts you are flying; when it ends, how (docked,
   destroyed, failed or abandoned), how long it lasted, how many enemies you
-  destroyed, the credits and crystals it paid, and how many parts and mods were
-  kept or lost.
-- **The hangar**: what was built, upgraded, salvaged, reclaimed, merged or
-  fused, and how many crystals and credits it cost or returned.
+  destroyed, the crystals it paid, and how many mods were kept.
+- **The hangar**: what was unlocked, painted, upgraded, salvaged, merged or
+  fused, and how many crystals it cost or returned.
+- **Rewarded ads**: that an ad was watched to the end, and how many crystals it paid.
+- **Purchases**: which crystal pack was bought, how many crystals it gave, and
+  whether it went through, failed or was cancelled. Never the price paid, your
+  payment details or your Google account.
 
-Credits and crystals are in-game currency only. They are not money and cannot
-be cashed out.
+Crystals are in-game currency only. They are not money, cannot be cashed out
+and cannot be refunded as money except through Google Play's own refund process.
 
 Each event also carries the app version and build number, the operating
 system, a **random installation ID** that the game generates the first time it
@@ -91,7 +99,8 @@ The game also writes files to your device's private app storage:
 
 | What | Why |
 |---|---|
-| Credits, crystals, unlocked parts, fitted mods and settings | So you keep what you earned, and the game opens the way you left it |
+| Crystals, unlocked parts, fitted mods and settings | So you keep what you earned, and the game opens the way you left it |
+| The order numbers of your recent purchases | So a purchase Google Play delivers twice is only paid once |
 | The random installation ID described above | So the usage data from one install is counted once |
 
 These files are readable only by the game. **We never receive them and have
@@ -104,29 +113,36 @@ Uninstalling the game or clearing its storage deletes these files.
 
 ## 2. Advertising and consent
 
-This version shows no ads. It does include **Google's User Messaging
-Platform**, which is part of the Google Mobile Ads SDK and is how the game
-asks for consent where the law requires it. Each time the game starts, it
-asks Google whether your region needs a consent choice. That request goes
-directly to Google, which sees your device's IP address and basic device
-information to answer it. If a choice is needed, Google's own consent form
-is shown, and your answer is stored on your device. **We do not receive this
-information.** How Google handles it is set out in its privacy policy:
-<https://policies.google.com/privacy>. The game does not read or use your
-device's advertising ID.
+The game shows **rewarded ads only, and only when you ask for one**: after a
+sortie that docked with crystals, a button offers to double them if you watch
+an ad. There are no banners and no ads between screens.
 
-A future version will show ads supplied by a third-party ad network, which will
-receive information from your device in order to serve them. The network, what
-it receives and the choices you have about it will be set out here before that
-version is released.
+The ads are served by **Google AdMob**. When the game asks for an ad, AdMob
+receives information from your device in order to choose and show it and to
+measure it: your device's IP address, your **advertising ID**, and basic
+information about the device and the app. Google handles this information as
+an ad network, under its own privacy policy:
+<https://policies.google.com/privacy>. You can reset or delete your advertising
+ID, or opt out of personalised ads, in your Android settings under
+**Privacy → Ads**.
+
+The game also includes **Google's User Messaging Platform**, which is how it
+asks for consent where the law requires it. Each time the game starts, it asks
+Google whether your region needs a consent choice; Google sees your IP address
+and basic device information to answer. If a choice is needed, Google's own
+consent form is shown, and your answer is stored on your device. **No ad is
+requested until that answer allows it**, and in the EEA, the UK and
+Switzerland the ads you see follow the choice you made. You can change it at
+any time from **Pause → Privacy Options**. **We do not receive any of this
+information.**
 
 ## 3. Purchases
 
-This version has no in-app purchases.
-
-A future version will offer in-app purchases. They will be processed by Google
-Play, and we will never see or store your payment details. Details will be
-added here before that version is released.
+You can buy packs of crystals in the game. Purchases are processed entirely by
+**Google Play** under your agreement with Google. We never see or store your
+payment details, your name or your Google account. Google tells the game only
+which pack was bought and an order number, which the game keeps on your device
+so the same order is never paid twice. Refunds are handled by Google Play.
 
 ## 4. Google Play
 
@@ -177,9 +193,9 @@ came before. For anything else, contact us and we will help.
 
 ## 8. Changes to this policy
 
-Ads and in-app purchases are planned for future versions. When a version adds
-them, or changes what usage data is sent, this policy will be updated before
-that version is released, and the date at the top will change.
+When a version changes what usage data is sent, what the ads receive or how
+purchases work, this policy will be updated before that version is released,
+and the date at the top will change.
 
 ## 9. Contact
 
