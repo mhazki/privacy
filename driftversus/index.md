@@ -6,7 +6,7 @@ jump: true
 
 # Drift Versus — Privacy Policy & Credits
 
-**Effective date: 16 September 2026**
+**Effective date: 3 October 2026**
 
 This policy explains what happens to information when you play **Drift Versus**
 ("the game"), a mobile racing game published by Muhammad Hazki Hariowibowo, trading as MHz Games ("we", "us").
@@ -41,18 +41,23 @@ your name, email address, contacts, location or anything similar.
 
 To understand how the game is played, it sends us a small number of
 **anonymous usage events**: the app was opened, how far through the game you
-have got, a race was started, a race finished, in-game currency was earned or
-spent, a reward ad was watched or skipped, an interruption ad was shown, the
-store page was opened, and a purchase was made (which product, where it was
-started from, and whether it went through).
+have got, a race was started, a race finished, a Drift Endless run was
+started or finished, in-game currency was earned or spent, a reward ad was
+watched or skipped, an interruption ad was shown, the store page was opened,
+and a purchase was made (which product, where it was started from, and whether
+it went through).
 
 The race events describe the driving and nothing else: which course, which
 stage of the career it was and whether that stage was a King's fight, which
 mode, win or loss, how long the run took, the drift score and how it was made
 up, how many times the car touched a wall, which stars the run earned, and the
-pips it paid. The currency events record that in-game pips or car tokens moved
-— how many, why (a race, a King's first fall, a solo medal, a rewarded ad, a
-purchase, or buying a car) and the balance afterwards. None of this is money;
+pips it paid. The Drift Endless events describe a run the same way: whether
+it was the day's road, how far the car got and for how long, how many rivals it
+overtook, how much damage it took and had repaired, how it ended, your best
+distance before it, and the stars it paid. The currency events record that
+in-game pips or car tokens moved — how many, why (a race, a King's first
+fall, a solo medal, a rewarded ad, a purchase, or buying a car) and the
+balance afterwards. None of this is money;
 pips and tokens cannot be cashed out and exist only inside the game.
 
 When the store page is opened, the game records that it was opened and what
@@ -97,7 +102,8 @@ installation ID** that the game generates the first time it runs, the date that
 ID was created, and a second random ID that identifies the current run of the
 app. The installation ID is not derived from your device, your advertising
 identifier or anything about you, and we cannot connect it to you. Uninstalling
-the game discards it.
+the game deletes it, unless your device later restores the game's data from
+your own backup (see below).
 
 This data is received and stored for us by **PostHog**, a product-analytics
 service, on servers in the United States. Like any web service, PostHog sees
@@ -234,7 +240,8 @@ displays, so there is nothing you could send us that would identify your
 events, and nothing we could use to find them. That is one fact seen from both
 sides: it is why the data cannot be traced back to you, and it is why we cannot
 pick your events out of it to delete them on request. Uninstalling the game
-discards the ID, and nothing further is ever recorded against that install.
+discards the ID (unless your own device backup restores it), and nothing
+further is ever recorded against that install.
 Everything else — the advertising data — is held by Google, and those rights
 are exercised against Google as the party that holds it; Google's privacy policy, linked in
 section 2, explains how. For anything relating to this game specifically,
