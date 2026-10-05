@@ -43,7 +43,7 @@ To understand how the game is played, it sends us a small number of
 **anonymous usage events**: the app was opened, how far through the game you
 have got, the tutorial was finished, skipped or left partway, a race was started, a race finished, a Endless Drift run was
 started or finished, in-game currency was earned or spent, a reward ad was
-watched or skipped, an interruption ad was shown, the store page was opened,
+watched or skipped, an interruption ad was shown (and whether on the way home or into the next stage), the store page was opened,
 and a purchase was made (which product, where it was started from, and whether
 it went through).
 
