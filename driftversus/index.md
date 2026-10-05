@@ -41,7 +41,7 @@ your name, email address, contacts, location or anything similar.
 
 To understand how the game is played, it sends us a small number of
 **anonymous usage events**: the app was opened, how far through the game you
-have got, the tutorial was finished, skipped or left partway, a race was started, a race finished, a Drift Endless run was
+have got, the tutorial was finished, skipped or left partway, a race was started, a race finished, a Endless Drift run was
 started or finished, in-game currency was earned or spent, a reward ad was
 watched or skipped, an interruption ad was shown, the store page was opened,
 and a purchase was made (which product, where it was started from, and whether
@@ -51,7 +51,7 @@ The race events describe the driving and nothing else: which course, which
 stage of the career it was and whether that stage was a King's fight, which
 mode, win or loss, how long the run took, the drift score and how it was made
 up, how many times the car touched a wall, which stars the run earned, and the
-pips it paid. The tutorial event records how it ended, how far along its road you got, how long it took, and how many presses and drifts you made. The Drift Endless events describe a run the same way: whether
+pips it paid. The tutorial event records how it ended, how far along its road you got, how long it took, and how many presses and drifts you made. The Endless Drift events describe a run the same way: whether
 it was the day's road, how far the car got and for how long, how many rivals it
 overtook, how much damage it took and had repaired, how it ended, your best
 distance before it, and the stars it paid. The currency events record that
