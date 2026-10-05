@@ -70,6 +70,20 @@ body.fomalhaut {
     --ink-mute: #9AA8BC;
 }
 
+/* Sandcastle Tide — style.css :root. The ground is the game's ink blue
+   (#17324d, the colour all its text is set in), ink is its paper (#fffdf7),
+   and the accent is its sunny gold (--land, #ffc23d), which clears 4.5:1 on
+   that ground as it is. */
+body.sandcastletide {
+    --canvas:  #17324D;
+    --card:    #10263B;
+    --surface: #1E3F5F;
+    --border:  #0C1D2E;
+    --accent-yellow: #FFC23D;
+    --ink:      #FFFDF7;
+    --ink-mute: #A9BCCD;
+}
+
 *, *::before, *::after { box-sizing: border-box; }
 
 html {
