@@ -5,7 +5,7 @@ palette: highwayversus
 themecolor: "#150F1D"
 ---
 
-**Effective date: 14 September 2026**
+**Effective date: 11 October 2026**
 
 This policy explains what happens to information when you play **HIGHWAY
 VERSUS** ("the game"), a mobile game published by Muhammad Hazki Hariowibowo,
@@ -45,7 +45,8 @@ usage events**: the app was opened; a run started, ended or was restarted; you
 shifted up a gear or dropped one; a rewarded ad was offered, taken or shown; an
 interruption ad was shown; the garage was opened; a car was previewed, bought,
 selected or repainted; a purchase was attempted and whether it went through;
-the profile was reset.
+the profile was reset; the one-time "swing out" tutorial pause was shown; Stacks
+were earned, and from what.
 
 Those events describe the driving and nothing else — how far the run got, which
 gear it reached, how it ended, and the in-game Stacks it paid. Stacks are not
@@ -61,11 +62,23 @@ first time the game runs. That ID is not derived from you or from your
 advertising identifier, and we cannot connect it to you. Uninstalling the game
 discards it.
 
+The same events are also received and stored for us by **PostHog**, a
+product-analytics service, on servers in the United States, under its own
+privacy policy: <https://posthog.com/privacy>. With each event the game sends
+the app version and build number, the platform, the country part of your
+device's **language setting** (for example "ID" for Indonesian set up for
+Indonesia — a setting you chose, not your location), when the game was first
+opened on this device, and a second **random installation ID** that the game
+generates and keeps in its private storage. Like any web service, PostHog sees
+the IP address the events arrive from; the game tells it **not** to work out a
+location from that address, and we do not use it to identify anyone.
+
 **If you are in the European Economic Area, the United Kingdom or
 Switzerland, none of this is sent unless you agree.** The game asks Google's
 User Messaging Platform whether a privacy choice applies where you are. If it
 does, the game asks you — once, after the ad-consent form — whether it may send
-usage data, with **ALLOW** and **NO THANKS** as equal choices. Until you say
+usage data, with **ALLOW** and **NO THANKS** as equal choices. This applies to both
+services in the same way. Until you say
 yes, no usage data or error reports are sent, and anything recorded while the
 game was waiting for your answer is thrown away unsent. If the game cannot find
 out where you are, for example on a first launch without a connection, it does
@@ -192,8 +205,11 @@ please contact us at the address below and we will act on it.
 ## 6. Data retention
 
 Usage data (section 1) is retained by Unity Gaming Services according to its
-own retention schedule for the plan we use, and we keep it for as long as it is
-useful for tuning the game. It is held only as events under a random ID, and we
+own retention schedule for the plan we use. The copy held by PostHog is kept
+for **at least twelve months** — the minimum PostHog holds it for on the plan we
+use — and has no fixed expiry date: we remove it when we no longer need it,
+and all of it goes when we close the PostHog project. We keep usage data for as
+long as it is useful for tuning the game. It is held only as events under a random ID, and we
 never build profiles of individual players from it. Data stored on your device
 stays there until you reset the profile, clear the app's data, or uninstall.
 Data held by Google as an advertising partner is retained according to Google's
@@ -204,8 +220,8 @@ own policies, linked in section 2.
 Depending on where you live, you may have rights to access, correct, delete, or
 restrict the processing of your personal data, or to object to it.
 
-The usage data we hold is not linked to you. It sits under a random
-installation ID that the analytics SDK keeps in the app's own private storage
+The usage data we hold is not linked to you. It sits under random
+installation IDs that the game and the analytics SDK keep in the app's own private storage
 and never displays, so there is nothing you could send us that would identify
 your events, and nothing we could use to find them. That is one fact seen from
 both sides: it is why the data cannot be traced back to you, and it is why we
