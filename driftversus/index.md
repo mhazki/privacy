@@ -6,7 +6,7 @@ jump: true
 
 # Drift Versus — Privacy Policy & Credits
 
-**Effective date: 5 October 2026**
+**Effective date: 13 October 2026**
 
 This policy explains what happens to information when you play **Drift Versus**
 ("the game"), a mobile racing game published by Muhammad Hazki Hariowibowo, trading as MHz Games ("we", "us").
@@ -96,6 +96,14 @@ own, how many races you have run, and your pip and token balances. This is the
 same progress the game already shows you on its own screens — it tells us
 where players get to and where they stop, which is how we know which parts of
 the game are too hard.
+
+Each event also carries **which country the game is being played in**, as a
+two-letter code such as "US" or "DE". It is the country that issued the
+phone's SIM card, or, where there is none, the country chosen in the device's
+own region setting. It is never finer than a country, it is not worked out
+from your IP address or GPS, and the game asks for no location permission to
+read it. It tells us which countries the game is reaching, and so which
+languages its store page should be written in.
 
 Each event carries the app version, the operating system, a **random
 installation ID** that the game generates the first time it runs, the date that
