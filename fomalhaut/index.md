@@ -5,7 +5,7 @@ palette: fomalhaut
 themecolor: "#0B1220"
 ---
 
-**Effective date: 2 October 2026**
+**Effective date: 27 October 2026**
 
 This policy explains what happens to information when you play **Fomalhaut
 Raiders** ("the game"), a mobile space shooter published by Muhammad Hazki
@@ -26,12 +26,12 @@ Hariowibowo, trading as MHz Games ("we", "us").
   you to make a choice the first time you play, and you can change it at any
   time from **Pause → Privacy Options**.
 - The game shows an **optional rewarded ad**: after a sortie you can choose to
-  watch one to double the crystals you brought home. Ads are served by
+  watch one to double the crystals and credits you brought home. Ads are served by
   **Google AdMob**, which receives information from your device to do that
   (section 2). No ad is shown unless you tap for one.
 - You can **buy crystals** in the game. Purchases are handled by **Google
   Play**; we never see your payment details (section 3).
-- Your progress (crystals, parts, fitted mods and settings) is
+- Your progress (crystals, credits, parts, specials and settings) is
   saved **only on your own device**. Your device's own cloud backup may include
   it if you use one. We can't see it either way.
 
@@ -51,18 +51,18 @@ To see where the game is too hard or too easy, it sends us a small number of
 - **The app was opened**, and whether this was the first time.
 - **How far you have got**, once each time you open the game: the deepest
   ring reached, how many finales you have won, how many sorties you have flown
-  and how many ended in a dock, your best kill count, your crystal
-  balance, how many blueprints and tuners you hold, and whether you have
+  and how many ended in a dock, your best kill count, your crystal and
+  credit balances, how many blueprints you hold, and whether you have
   finished flight school. This is the same progress the game already shows you.
 - **Flight school**: when it starts, each lesson passed and how long it took,
   and how it ended (docked, crashed or skipped).
 - **Sorties**: when one starts, which ring, sector, mission, tier and threat
   level it is and which ship parts you are flying; when it ends, how (docked,
   destroyed, failed or abandoned), how long it lasted, how many enemies you
-  destroyed, the crystals it paid, and how many mods were kept.
-- **The hangar**: what was unlocked, painted, upgraded, salvaged, merged or
-  fused, and how many crystals it cost or returned.
-- **Rewarded ads**: that an ad was watched to the end, and how many crystals it paid.
+  destroyed, and the crystals and credits it paid or lost.
+- **The hangar**: what was unlocked, upgraded or painted, and how many crystals
+  or credits it cost.
+- **Rewarded ads**: that an ad was watched to the end, and how many crystals and credits it paid.
 - **Purchases**: which crystal pack was bought, how many crystals it gave, and
   whether it went through, failed or was cancelled. Never the price paid, your
   payment details or your Google account.
@@ -99,7 +99,7 @@ The game also writes files to your device's private app storage:
 
 | What | Why |
 |---|---|
-| Crystals, unlocked parts, fitted mods and settings | So you keep what you earned, and the game opens the way you left it |
+| Crystals, credits, unlocked parts, their stars, specials and settings | So you keep what you earned, and the game opens the way you left it |
 | The order numbers of your recent purchases | So a purchase Google Play delivers twice is only paid once |
 | The random installation ID described above | So the usage data from one install is counted once |
 
