@@ -6,7 +6,7 @@ jump: true
 
 # Drift Versus — Privacy Policy & Credits
 
-**Effective date: 13 October 2026**
+**Effective date: 30 October 2026**
 
 This policy explains what happens to information when you play **Drift Versus**
 ("the game"), a mobile racing game published by Muhammad Hazki Hariowibowo, trading as MHz Games ("we", "us").
@@ -104,6 +104,11 @@ own region setting. It is never finer than a country, it is not worked out
 from your IP address or GPS, and the game asks for no location permission to
 read it. It tells us which countries the game is reaching, and so which
 languages its store page should be written in.
+
+Each event also carries **the language your device is set to**, as a two- or
+three-letter code such as "en" or "ms". It is the language alone — not your
+region, keyboard or any other setting — and it tells us which languages the
+game itself should be translated into.
 
 Each event carries the app version, the operating system, a **random
 installation ID** that the game generates the first time it runs, the date that
@@ -284,6 +289,10 @@ Drift Versus is built on some work by other people. Thank you to all of them.
   [OpenGameArt](https://opengameart.org/content/car-tire-squeal-skid-loop) —
   licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
   *Modified: filtered and looped.*
+- *(FREE) Racing Car in 3 styles* by **Mena**, via
+  [Sketchfab](https://sketchfab.com/3d-models/free-racing-car-in-3-styles-12cbb1078c37497caa3a9e205f665cdc) —
+  licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+  *Modified: badges removed, lights and textures reworked.*
 - *[100 CC0 metal and wood SFX](https://opengameart.org/content/100-cc0-metal-and-wood-sfx)*
   and *[100 CC0 SFX #2](https://opengameart.org/content/100-cc0-sfx-2)*, via
   OpenGameArt — CC0 (public domain).
